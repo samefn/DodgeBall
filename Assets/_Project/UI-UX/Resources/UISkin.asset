@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24b4d768aaae0394fa17183b293dbc3d, type: 3}
+  m_Name: UISkin
+  m_EditorClassIdentifier: Assembly-CSharp::UISkin
+  panelBackground: {fileID: 21300000, guid: 0988b990a39b81946915e6ecd5f768c1, type: 3}
+  textPanel: {fileID: 21300000, guid: 9a5f41109c9228842b45edc755821baa, type: 3}
+  font: {fileID: 12800000, guid: 9c3f1ef71a59514468709936ae12c081, type: 3}
+  kickButton: {fileID: 21300000, guid: dbadf3e136de63d44a286342fe2fa879, type: 3}
+  banButton: {fileID: 21300000, guid: d938bc7ea3b65214bb2603186eb0b5a4, type: 3}
+  pauseButton: {fileID: 21300000, guid: 7d069c89e0927f54681ac8575c288006, type: 3}
+  rematchButton: {fileID: 21300000, guid: 61b43b29edad8c143813121a68547731, type: 3}
+  applyRulesButton: {fileID: 21300000, guid: 3962fa887431e924eb1e228c83120dfe, type: 3}
+  defaultRulesButton: {fileID: 21300000, guid: 46e8a219bf4d440439ab741227db4eca, type: 3}
+  restartButton: {fileID: 21300000, guid: d69f5eda127009c43ae0a0a9f3a192f3, type: 3}
+  endNowButton: {fileID: 21300000, guid: 30bd53ff9a68beb4c926aa957078922d, type: 3}
+  closePanelButton: {fileID: 21300000, guid: 86edcf909d55b98419e3b827a17a5cab, type: 3}
+  victoryBanner: {fileID: 21300000, guid: 3c4842a8472ec3f4793215f3993fc8e3, type: 3}
+  defeatBanner: {fileID: 21300000, guid: d9502028ca0f0a84ab5ff47d6ae53d90, type: 3}
+  sliderThumb: {fileID: 21300000, guid: 8d84533baf0c3ba43bb157bef40a02f7, type: 3}
+  clickSound: {fileID: 8300000, guid: 928e82b36030c8c47a745ed6b0fcd963, type: 3}
+  lifeLostSound: {fileID: 8300000, guid: 7863a9474e30b584d962280c79d6ffdc, type: 3}
+  throwSound: {fileID: 8300000, guid: 49b8a420536a68149930c947dc202fc4, type: 3}
+  impactSound: {fileID: 8300000, guid: 97790b9d0e98db040b964f9b4fcbbcc2, type: 3}
+  victorySound: {fileID: 8300000, guid: a42da11a8bb073a42bbd6704b864939e, type: 3}
+  defeatSound: {fileID: 8300000, guid: befae13fba42b664eb8f0848caa523ba, type: 3}
+  menuMusic: {fileID: 8300000, guid: 7f21c1cb417a5e640b9b9d7825bcc2d0, type: 3}

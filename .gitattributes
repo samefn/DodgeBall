@@ -1,0 +1,27 @@
+# Text files: normalized line endings. Unity scenes, prefabs and assets are YAML text.
+* text=auto
+
+*.cs diff=csharp text
+*.unity text merge=unityyamlmerge eol=lf
+*.prefab text merge=unityyamlmerge eol=lf
+*.asset text merge=unityyamlmerge eol=lf
+*.mat text merge=unityyamlmerge eol=lf
+*.meta text eol=lf
+*.bat text eol=crlf
+
+# Binary files: never touched by git.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.psd binary
+*.tga binary
+*.fbx binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.ttf binary
+*.otf binary
+*.dll binary
+*.exr binary
+*.hdr binary
+*.unitypackage binary
